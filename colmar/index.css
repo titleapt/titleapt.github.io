@@ -74,13 +74,35 @@ body {
 #section-2{
   background-color: #f3f5f5;
   margin: 0;
+  width: 100%;
 }
 
 .img-2-wrap {
   width: 60%;
   height: auto;
+  margin: 0 24px;
 }
 .img-2-wrap img{
   width: 100%;
   margin: 32px 0;
+}
+.content-right{
+  display: flex;
+  flex-direction:column;
+  width: 40%;
+  margin: 32px 0;
+}
+.content-right .box-side {
+  border: 1px solid #9b9b9b;
+  padding: 16px;
+  display: flex;
+}
+.content-right .box-side img{
+  width: 35%;
+}
+.box-side-text {
+  display: flex;
+  flex-direction:column;
+  margin: 16px;
+  justify-content: center;
 }
